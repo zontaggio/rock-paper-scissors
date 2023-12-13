@@ -68,7 +68,7 @@ function clearBeforeStart() {
     }
 }
 
-const container = document.querySelector('#container');
+const container = document.querySelector('.container');
 const playerScoreContainer = document.querySelector('.playerScore');
 const computerScoreContainer = document.querySelector('.computerScore');
 const resultContainer = document.querySelector('.gameResult');

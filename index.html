@@ -3,15 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rock, Paper, Scissors</title>
+        <title>Rock, Paper or Scissors?</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
 
+        <div class="title">
+            <h1> Rock, Paper or Scissors?</h1>
+        </div>
+
         <div class="scoreboard">
-            <p class="playerTitle">Player:</p>
+            <p class="playerTitle">PLAYER</p>
             <p class="playerScore">0</p>
-            <p class="playerTitle">Computer:</p>
+            <p>vs</p>
             <p class="computerScore">0</p>
+            <p class="playerTitle">COMPUTER</p>
         </div>
 
         <div class="buttons">
@@ -20,9 +26,10 @@
             <button id="chooseScissors">SCISSORS!</button>
         </div>
 
-        <p class="gameResult"></p>
-
-        <div id="container"></div>
+        <div class="log">
+            <p class="gameResult"></p>
+            <div class="container"></div>
+        </div>
 
         <script src="./script.js"></script>
 

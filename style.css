@@ -1,0 +1,46 @@
+body {
+    background-color: #ADCAD6;
+}
+
+.title {
+    display: flex;
+    color: #ADCAD6;
+    background-color: #294C60;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.scoreboard, .buttons, .log {
+    display: flex;
+    background-color: #ADCAD6;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard * {
+    padding: 15px 30px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.buttons {
+    gap: 30px;
+    padding: 15px 0px;
+}
+
+.buttons * {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: #294C60;
+    color: white;
+    font-size: large;
+}
+
+.log * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
